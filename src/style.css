@@ -3,6 +3,10 @@
   margin-bottom: 10px;
 }
 
+.form__field:last-child {
+  margin-bottom: 1px;
+}
+
 fieldset {
   margin-bottom: 20px;
 }

@@ -42,7 +42,7 @@
         </div>
         <div class="form__field">
           <label>
-            How old are you?
+            How old are You?
             <input
               type="number"
               name="how__old"
@@ -61,16 +61,16 @@
         </div>
         <div class="form__field">
           <label>
-            I accept the form of the agreement
+            I accept the term of the agreement
             <input type="checkbox" name="I accept" >
           </label>
         </div>
       </fieldset>
       <fieldset>
-        <legend>Regestration</legend>
+        <legend>Registration</legend>
         <div class="form__field">
           <label>
-            E-Mail:
+            E-mail:
             <input
               type="email"
               name="email"
@@ -121,11 +121,14 @@
         <div class="form__field">
           <label>
             What are your favorite brand of cars?
-            <select name="car">
-              <option value=" "></option>
+            <select name="car" 
+            size="4" 
+            multiple
+            >
               <option value="bmw">BMW</option>
               <option value="audi">Audi</option>
               <option value="lada">Lada</option>
+              <option value=" "></option>
             </select>
           </label>
         </div>
@@ -151,8 +154,8 @@
           <label>
             Would you recommend us?
             <select name="recommend">
-              <option value="Yes">Yes</option>
-              <option value="No">No</option>
+              <option value="yes">yes</option>
+              <option value="no">no</option>
             </select>
           </label>
         </div>
@@ -162,7 +165,7 @@
       </div>
     </form>
 
-    
+
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
